@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>    
+<!DOCTYPE struts PUBLIC    
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"    
+"http://struts.apache.org/dtds/struts-2.1.dtd">    
+    
+<struts>    
+    <constant name="struts.devMode" value="true" />    
+    <package name="libro" namespace="/" extends="struts-default">    
+        <action name="*Libro" method="{1}" class="com.crudsa.action.LibroAction">
+            <result name="lista">WEB-INF/pages/listaLibros.jsp</result>
+            <result name="iBusca">WEB-INF/pages/busca.jsp</result>
+            <result name="busca">WEB-INF/pages/listaLibros.jsp</result>
+            <result name="obtener">WEB-INF/pages/infoLibro.jsp</result>
+            <result name="formulario">WEB-INF/pages/formulario.jsp</result>
+        </action>
+        <action name="*Folio" method="{1}" class="com.crudsa.action.FolioAction">
+            <result name="success">WEB-INF/pages/busca.jsp</result>
+        </action>
+    </package>        
+</struts>

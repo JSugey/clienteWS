@@ -1,0 +1,17 @@
+com\crudsa\entity\Folio.class
+com\crudsa\action\LibroAction.class
+com\crudsa\clienteWS\Cliente.class
+com\crudsa\entity\Libro.class
+com\crudsa\entity\ApiError.class
+com\crudsa\clienteWS\ClienteWSR$1.class
+com\crudsa\clienteWS\ClienteWSRest.class
+com\crudsa\CORSFilter.class
+com\crudsa\action\FolioAction.class
+com\crudsa\vo\LibroVO.class
+com\crudsa\service\LibroServiceImpl.class
+com\crudsa\entity\ApiResponseF.class
+com\crudsa\clienteWS\ClienteWS.class
+com\crudsa\entity\SolicitarFolio.class
+com\crudsa\clienteWS\ClienteWSR.class
+com\crudsa\entity\SubErrors.class
+com\crudsa\service\LibroService.class
